@@ -1,0 +1,63 @@
+{
+    "hash": "773572a141278b10c7f700dcca6d3a1a",
+    "packages": [
+        {
+            "name": "iampersistent/gateway",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/iampersistent/Gateway.git",
+                "reference": "87e147594a972d0a45150a215f3aa11cafea95a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/iampersistent/Gateway/zipball/87e147594a972d0a45150a215f3aa11cafea95a9",
+                "reference": "87e147594a972d0a45150a215f3aa11cafea95a9",
+                "shasum": ""
+            },
+            "time": "1337749743",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Gateway": "lib/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Richard Shank",
+                    "email": "develop@zestic.com"
+                }
+            ],
+            "description": "A class to help handle gateways to processing entities.",
+            "keywords": [
+                "gateway"
+            ]
+        },
+        {
+            "name": "vespolina/core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/iampersistent/VespolinaCore.git",
+                "reference": "master"
+            },
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Vespolina": "lib/"
+                }
+            },
+            "time": "1348014460"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": [
+
+    ]
+}
